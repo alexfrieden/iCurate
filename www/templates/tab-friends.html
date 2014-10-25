@@ -1,0 +1,9 @@
+<ion-view title="Friends">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="document in documents" type="item-text-wrap" href="#/tab/document/{{document.id}}">
+        {{document.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
