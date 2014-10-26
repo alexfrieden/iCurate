@@ -9,6 +9,7 @@ angular.module('starter.controllers', [])
 
 .controller('FriendDetailCtrl', function($scope, $stateParams, Documents) {
   $scope.document = Documents.get($stateParams.documentId);
+  console.log($stateParams.documentId);
 })
 
 .controller('AccountCtrl', function($scope) {

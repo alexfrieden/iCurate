@@ -20,7 +20,7 @@ angular.module('starter.services', [])
     },
     get: function(documentId) {
       // Simple index lookup
-      return friends[documentId];
+      return documents[documentId];
     }
   }
 });
